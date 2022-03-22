@@ -7,8 +7,5 @@ document.addEventListener("click", function(event) {
     //adding the button operational
     if (!event.target.matches("#button")) return;
 
-    fetch("https://official-joke-api.appspot.com/random_joke")
-        .then((response) => response.json())
-        .then((data) => console.log(data));
-});
-
+    console.log("button was clicked");
+})
