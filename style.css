@@ -20,6 +20,10 @@ body {
   margin: 1em;
 }
 
+h1.temp {
+  margin: 0;
+}
+
 .search {
   display: flex;
   align-items: center;
@@ -31,8 +35,8 @@ button {
   margin: .5em;
   border-radius: 50%;
   border: none;
-  height: 45px;
-  width: 45px;
+  height: 44px;
+  width: 44px;
   outline: none;
   background: #7c7c7c2b;
   color: white;
@@ -43,12 +47,12 @@ button {
 input.searchbar {
   border: none;
   outline: none;
-  padding: .6em 1em;
+  padding: .5em 1em;
   border-radius: 24px;
   background: #7c7c7c2b;
   color: white;
   font-family: inherit;
-  font-size: 120%;
+  font-size: 100%;
   width: calc(100% - 100px);
 }
 
