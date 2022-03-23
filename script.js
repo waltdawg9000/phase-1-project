@@ -3,9 +3,3 @@ h2.textContent = "This content added by JavaScript";
 
 document.querySelector("body").appendChild(h2);
 
-document.addEventListener("click", function(event) {
-    //adding the button operational
-    if (!event.target.matches("#button")) return;
-
-    console.log("button was clicked");
-})
