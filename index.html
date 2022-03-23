@@ -10,9 +10,21 @@
 
       </head>
   <body>
-    <button id="button" type='button'>Get Joke</button>
-    <p id="setup"></p>
-    <p id="punchline"></p>
+    <button id="btn">click me</button>
+
+<script>
+  var button = document.getElementbyId("btn");
+
+  button.addEventListener("click", function(){
+    alert("You just clicked me");
+  });
+
+  button.onclick = function() {
+    alert("You just clicked me");
+  }
+  
+</script>
     <script> src="script.js"</script>
   </body>
+
 </html>
