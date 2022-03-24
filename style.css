@@ -22,6 +22,13 @@ body {
 
 h1.temp {
   margin: 0;
+  margin-bottom: .5em;
+}
+
+.description {
+  text-transform:capitalize;
+  margin-left:35px;
+
 }
 
 .search {
@@ -58,4 +65,9 @@ input.searchbar {
 
 button:hover {
   background: #7c7c7c6b;
+}
+
+img.icon {
+  width: 30px;
+  height: 30px;
 }
